@@ -1,0 +1,1 @@
+const e={url:[{required:!0}],method:[{required:!0}]},t=[{title:"url",ellipsis:!0,colKey:"url"},{title:"method",ellipsis:!0,colKey:"method"},{title:"group",ellipsis:!0,colKey:"group"},{title:"备注",ellipsis:!0,colKey:"remark"},{align:"left",fixed:"right",colKey:"op",title:"操作"}];export{t as C,e as R};
