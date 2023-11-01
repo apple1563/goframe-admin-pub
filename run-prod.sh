@@ -8,9 +8,9 @@ errorFile="error_$(date '+%Y%m%d_%H%M%S').log"  # 新增的错误日志文件名
 configFile="config.prod.yaml"
 
 # 执行发布流程
-#echo "Fetching latest code..."
-#git fetch --all
-#git reset --hard origin/master
+echo "Fetching latest code..."
+git fetch --all
+git reset --hard origin/master
 
 #设置操作权限
 chmod +x ./$name
