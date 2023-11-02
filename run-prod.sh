@@ -23,9 +23,6 @@ sleep 2  # 等待程序停止
 echo "启动 Go 程序..."
 nohup ./$name --gf.gcfg.file=$configFile > $logFile 2>&1 &
 
-# 如果你想在脚本中输出错误信息，可以使用 cat 命令
-cat $errorFile
-
 # 打印进程 ID
 echo "Go 程序已在后台运行，进程 ID：$!"
 
