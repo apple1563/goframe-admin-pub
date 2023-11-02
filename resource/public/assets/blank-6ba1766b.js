@@ -1,0 +1,1 @@
+import{g as o,m as t,o as _,c,a as n}from"./index-812ea633.js";const s={},a={class:"tdesign-wrapper"};function r(d,p){const e=t("router-view");return _(),c("div",a,[n(e)])}const i=o(s,[["render",r],["__scopeId","data-v-d2d85c5e"]]);export{i as default};
